@@ -113,7 +113,37 @@ select {
 
 /* main style  */
 
+.popular-tour-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.popular-tour-description {
+    max-width: 577px;
+}
+
+.popular-tour-description h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+
+.popular-tour-description p {
+    margin-bottom: 24px;
+    color: #131318c0;
+}
+
+.popular-tour-description li {
+    margin-bottom: 24px;
+    color: #131318c0;
+
+}
+
 .read-btn {
+    margin-top: 12px;
     font-size: 16px;
     font-weight: 700;
     color: white;
@@ -122,4 +152,22 @@ select {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* destibation  */
+
+.destination-description {
+    max-width: 640px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.destination-description h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination-description p {
+    color: #131318c0;
 }
