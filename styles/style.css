@@ -121,6 +121,7 @@ select {
     margin-bottom: 100px;
 }
 
+
 .popular-tour-description {
     max-width: 577px;
 }
@@ -160,6 +161,7 @@ select {
     max-width: 640px;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .destination-description h1 {
@@ -170,4 +172,30 @@ select {
 
 .destination-description p {
     color: #131318c0;
+}
+
+.collage {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    gap: 24px;
+}
+
+.item {
+    position: relative;
+}
+
+.item span {
+    font-size: 28px;
+    font-weight: 800;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    color: white;
 }
