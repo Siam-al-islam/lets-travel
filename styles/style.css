@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+nav {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.web-name {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.web-name span {
+    color: #FF5400;
+}
+
+nav ul {
+    display: flex;
+    gap: 44px;
+}
+
+nav ul a {
+    font-size: 18px;
+    color: #424247;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul a:first-child {
+    text-decoration: none;
+    list-style: none;
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* banner style  */
+
+.banner {
+    max-width: 1000px;
+    background-image: url("../images/Rectangle2.png"), url("../images/Group\ 13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center;
+    border-radius: 16px;
+    padding: 106px 185px;
+    margin: 0 auto 100px;
+
+}
+
+
+.banner-title {
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-description p {
+    color: white;
+    margin-bottom: 48px;
+}
+
+
+.input-area {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff46;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.input-area input,
+select {
+    font-size: 16px;
+    color: #424247;
+    padding: 16px;
+    border: 0;
+    border-radius: 8px;
+    width: 175px;
+}
+
+.find-btn {
+    font-size: 16px;
+    color: white;
+    background-color: #FF5400;
+    padding: 16px 34px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 175px;
+}
+
+/* main style  */
+
+.read-btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF5400;
+    padding: 14px 34px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
