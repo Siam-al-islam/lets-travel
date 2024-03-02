@@ -315,6 +315,94 @@ section p {
     font-weight: bold;
 }
 
+/* deals  */
+
+.deals-and-discount {
+    margin-bottom: 100px;
+}
+
+.discount-banner-bandarban,
+.discount-banner-indonasia {
+    background-image: url("../images/Rectangle\ 12.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background-size: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.discount-banner-bangladesh {
+    background-image: url("../images/Rectangle\ 1112.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+    background-size: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.discount-banner-bangladesh .discount-card {
+    margin-left: 0;
+}
+
+.discount-banner-indonasia {}
+
+.discount-details {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.discount-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 579px;
+    padding: 50px;
+    background-color: #ffffffbe;
+    border-radius: 16px;
+    margin-left: 500px;
+}
+
+.discount-content {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discount-content h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.discount-content p {
+    margin-bottom: 24px;
+}
+
+.svg-icons {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.svg-icons span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 
 /* featured section  */
 .featured {
@@ -544,6 +632,10 @@ footer .logo-container img {
     }
 
     .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul {
         padding: 50px 50px;
         background-color: orange;
         position: fixed;
@@ -554,16 +646,13 @@ footer .logo-container img {
         transition: all .3s;
     }
 
-    .menu ul {
-        flex-direction: column;
-    }
-
     #checkbox:checked~ul {
-        left: 0%;
+        left: 0;
     }
 
     #checkbox:checked~label #btn {
         display: none;
+
     }
 
     #checkbox:checked~label #cancel {
