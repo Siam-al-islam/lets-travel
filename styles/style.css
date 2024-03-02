@@ -101,6 +101,9 @@ select {
 }
 
 .find-btn {
+    display: flex;
+    gap: 8px;
+    align-items: center;
     font-size: 16px;
     color: white;
     background-color: #FF5400;
@@ -112,6 +115,18 @@ select {
 }
 
 /* main style  */
+
+/* shared style  */
+
+.section-title {
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+
+section p {
+    color: #131318c0;
+}
 
 .popular-tour-container {
     display: flex;
@@ -126,15 +141,10 @@ select {
     max-width: 577px;
 }
 
-.popular-tour-description h1 {
-    font-size: 40px;
-    margin-bottom: 24px;
-    font-weight: 800;
-}
+
 
 .popular-tour-description p {
     margin-bottom: 24px;
-    color: #131318c0;
 }
 
 .popular-tour-description li {
@@ -143,7 +153,7 @@ select {
 
 }
 
-.read-btn {
+.primary-btn {
     margin-top: 12px;
     font-size: 16px;
     font-weight: 700;
@@ -164,15 +174,7 @@ select {
     margin-bottom: 48px;
 }
 
-.destination-description h1 {
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-}
-
-.destination-description p {
-    color: #131318c0;
-}
+/* collage styles  */
 
 .collage {
     display: flex;
@@ -180,6 +182,7 @@ select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .row {
@@ -192,10 +195,95 @@ select {
 }
 
 .item span {
+    transform: translate(-50%, -50%);
     font-size: 28px;
     font-weight: 800;
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
     position: absolute;
     color: white;
+}
+
+/* why choose us  */
+
+.choose-us-container {
+    margin-bottom: 100px;
+}
+
+.choose-us-detail {
+    max-width: 640px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.choose-item {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.hotels,
+.service,
+.guarantee {
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+}
+
+.hotels {
+    background-color: #fbb46311;
+    border: 1px solid #fbb4632a;
+}
+
+.service {
+    background-color: #29cdf60d;
+    border: 1px solid #29cdf62a;
+}
+
+.guarantee {
+    background-color: #e9444411;
+    border: 1px solid #e9444425;
+}
+
+.hotels img,
+.service img,
+.guarantee img {
+    margin-bottom: 32px;
+}
+
+.hotels h2,
+.service h2,
+.guarantee h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+/* get-lost stye  */
+
+.get-lost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.get-lost-description {
+    max-width: 532px;
+}
+
+.get-lost-description h1 {
+    margin-bottom: 24px;
+}
+
+.get-lost-description p {
+    margin-bottom: 24px;
+}
+
+.get-lost-description li {
+    margin-bottom: 16px;
 }
