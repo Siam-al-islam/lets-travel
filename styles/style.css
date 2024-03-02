@@ -386,6 +386,13 @@ section p {
 }
 
 .discount-content p {
+    margin-bottom: 16px;
+}
+
+.discount-price {
+    font-size: 20px;
+    color: #FF5400;
+    font-weight: 800;
     margin-bottom: 24px;
 }
 
@@ -796,6 +803,46 @@ footer .logo-container img {
 
     .get-lost-description p {
         margin-bottom: 16px;
+    }
+
+    /* deals  */
+
+    .deals-and-discount {
+        margin-bottom: 24px;
+    }
+
+    .deals-and-discount h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .deals-and-discount p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .discount-price {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .svg-icons {
+        flex-wrap: wrap;
+    }
+
+    .discount-banner-bandarban,
+    .discount-banner-bangladesh,
+    .discount-banner-indonasia {
+        display: block;
+        background-size: cover;
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .discount-card {
+        margin-top: 180px;
+        margin-left: 0;
+        padding: 24px;
     }
 
     .featured {
