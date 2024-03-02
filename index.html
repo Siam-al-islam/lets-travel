@@ -16,12 +16,17 @@
 
 <body>
     <header>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">
+            <i class="fa fa-solid fa-bars" id="btn"></i>
+            <i class="fa fa-solid fa-times" id="cancel"></i>
+        </label>
         <nav>
             <div class="logo-container">
                 <img src="./Images/Group 40071 (2).png" alt="">
                 <h1 class="web-name">Lets's <span>Adventure</span></h1>
             </div>
-            <div>
+            <div class="menu">
                 <ul>
                     <a href="">
                         <li>Home</li>
@@ -54,7 +59,9 @@
                         moment unfolds an adventure.</p>
                 </div>
                 <div class="input-area">
-                    <input placeholder="Where Go" type="text">
+                    <div class="input-field">
+                        <input placeholder="Where Go" type="text">
+                    </div>
                     <select id="time">
                         <option value="" disabled selected>When</option>
                         <option value="morning">Morning</option>

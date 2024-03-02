@@ -9,10 +9,24 @@ body {
 
 nav {
     margin-top: 50px;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 50px;
+}
+
+
+label #btn,
+label #cancel {
+    display: none;
+    font-size: 20px;
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#checkbox {
+    display: none;
 }
 
 .logo-container {
@@ -30,19 +44,19 @@ nav {
     color: #FF5400;
 }
 
-nav ul {
+.menu ul {
     display: flex;
     gap: 44px;
 }
 
-nav ul a {
+.menu a {
     font-size: 18px;
     color: #424247;
     text-decoration: none;
     list-style: none;
 }
 
-nav ul a:first-child {
+.menu a:first-child {
     text-decoration: none;
     list-style: none;
     color: #FF5400;
@@ -186,6 +200,7 @@ section p {
 }
 
 .row {
+    max-width: 1170px;
     display: flex;
     gap: 24px;
 }
@@ -523,14 +538,63 @@ footer .logo-container img {
         margin: 20px;
     }
 
+    nav {
+        margin: 18px 20px;
+        justify-content: flex-start;
+    }
+
+    .menu ul {
+        padding: 50px 50px;
+        background-color: orange;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: 100%;
+        transition: all .3s;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    #checkbox:checked~ul {
+        left: 0%;
+    }
+
+    #checkbox:checked~label #btn {
+        display: none;
+    }
+
+    #checkbox:checked~label #cancel {
+        display: block;
+    }
+
+    label #btn {
+        display: block;
+    }
+
     .banner {
-        padding: 32px 16px;
+        padding: 32px 24px;
         margin-bottom: 24px;
     }
 
     .banner-description {
         max-width: 304px;
         margin: 0 auto;
+    }
+
+    .banner-description input,
+    select {
+        width: 100%;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .input-field input {
+        width: calc(100% - 32px);
     }
 
     .banner h1 {
@@ -545,8 +609,14 @@ footer .logo-container img {
     }
 
     .input-area {
-        max-width: 287px;
         flex-direction: column;
+        gap: 16px;
+    }
+
+    .find-btn {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .popular-tour-container {
