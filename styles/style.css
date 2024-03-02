@@ -368,7 +368,8 @@ section p {
     flex-direction: column;
     max-width: 579px;
     padding: 50px;
-    background-color: #ffffffbe;
+    background-color: #ffffffc6;
+    border: 2px solid white;
     border-radius: 16px;
     margin-left: 500px;
 }
