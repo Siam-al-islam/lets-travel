@@ -21,7 +21,7 @@ label #cancel {
     display: none;
     font-size: 20px;
     float: right;
-    line-height: 50px;
+    line-height: 30px;
     cursor: pointer;
 }
 
