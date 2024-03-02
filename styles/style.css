@@ -517,7 +517,9 @@ footer .logo-container img {
 /* responsive for mobile devices  */
 
 @media screen and (max-width: 600px) {
-    body {
+
+    header,
+    main {
         margin: 20px;
     }
 
@@ -665,6 +667,7 @@ footer .logo-container img {
     .newsletter-wrapper {
         flex-direction: column;
         gap: 16px;
+        margin-bottom: 24px;
     }
 
     .newsletter-image img {
@@ -682,6 +685,26 @@ footer .logo-container img {
     }
 
     .badge h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 32px;
+    }
+
+    .footer-wrapper hr {
+        margin: 24px;
+    }
+
+    .web-name {
+        font-size: 20px !important;
+    }
+
+    .footer-details {
+        margin-bottom: 16px;
+    }
+
+    .social-icon {
         font-size: 20px;
     }
 }
