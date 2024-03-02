@@ -457,15 +457,32 @@ section p {
     font-weight: 800;
 }
 
-
 /* footer style  */
 
 footer {
+    padding: 110px 0;
     background-color: #1313180b;
 }
 
 .footer-wrapper {
     margin: 0 auto;
+}
+
+.footer-wrapper hr {
+    border: 1px solid #13131810;
+    max-width: 872px;
+    margin: 50px auto;
+}
+
+.footer-details {
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 32px;
 }
 
 footer h1 {
@@ -474,4 +491,16 @@ footer h1 {
 
 footer .logo-container img {
     width: 40px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 24px;
+}
+
+.copyright {
+    text-align: center;
 }
