@@ -54,6 +54,11 @@ label #cancel {
     color: #424247;
     text-decoration: none;
     list-style: none;
+    transition: .3s;
+}
+
+.menu a:hover{
+    color: #FF5400;
 }
 
 .menu a:first-child {
